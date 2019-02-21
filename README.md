@@ -1,5 +1,6 @@
 # Liri-Node-App
 
+## Description
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
@@ -19,7 +20,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * npm install axios
 * npm install dotenv
 
-# How It Works!
+## How It Works!
 
 **I have created 2 prompts to navigate through my project.**
 * Movie, Concert, Song
@@ -35,7 +36,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * User will type in the Movie Name, Band Name, or Song Name
 * Press enter to submit
 
-# Results
+## Results
 
 **When you search a Concert:**
 * Name of the venue
