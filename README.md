@@ -19,7 +19,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * npm install axios
 * npm install dotenv
 
-
+# How It Works!
 
 **I have created 2 prompts to navigate through my project.**
 * Movie, Concert, Song
@@ -35,11 +35,13 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * User will type in the Movie Name, Band Name, or Song Name
 * Press enter to submit
 
-**When you search a Concert your results will be:**
+# Results
+
+**When you search a Concert:**
 * Name of the venue
 * Venue location
 
-**When you search a Movie your results will be:**
+**When you search a Movie your:**
   * Title of the movie.
   * Year the movie came out.
   * IMDB Rating of the movie.
@@ -49,7 +51,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
   * Plot of the movie.
   * Actors in the movie.
 
-**When you search a Song your results will be:**
+**When you search a Song your:**
 * Artist(s)
 * The song's name
 * A preview link of the song from Spotify
