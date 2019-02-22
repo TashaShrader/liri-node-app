@@ -57,7 +57,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
   * Country where the movie was produced.
   * Language of the movie.
   * Plot of the movie.
-  * Actors in the movie
+  * Actors in the movie.
 
 ![Alt text](/images/movies.png)
 
