@@ -1,0 +1,50 @@
+spotify-this-song,"I Want it That Way"
+
+
+
+
+
+
+var keys = require("./keys.js");
+var spotify = require('node-spotify-api', keys);
+
+
+
+if (process.argv[2] === "song-title") {
+  var spotifyApi = new SpotifyWebApi({
+    clientId: 'fcecffacaaf7eb8640fd872a0091cfbfe4ab',
+    clientSecret: '906d297ecfb149bcba22d571047df786',
+    redirectUri: 'http://www.example.com/callback'
+  });
+  var songTitle = process.argv[3];
+  url = "https://api.spotify.com/v1/search/q=track:" + songTitle + spotifyApi.clientId + spotifyApi.clientSecret;
+
+  console.log(url);
+
+  spotifyApi.getArtist(songTitle)
+    .then(function (data, err) {
+      console.log(data.body);
+    }, function (err) {
+      console.error(err);
+    })
+}
+
+
+
+
+     clientId: 'fcecffacaaf7eb8640fd872a0091cfbfe4ab',
+        clientSecret: '906d297ecfb149bcba22d571047df786',
+        redirectUri: 'http://www.example.com/callback'
+
+
+             spotifyApi.searchTracks(songTitle).then(
+        function(data) {
+          console.log('Serch tracks by ', songTitle, "in the track name", data.body);
+        },
+        function(err) {
+          console.error(err);
+        }
+      );
+
+
+
