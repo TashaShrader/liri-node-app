@@ -69,5 +69,7 @@ _you will need to run each of these installs seperately_
 * A preview link of the song from Spotify
 * The album that the song is from
 
+![Alt text](/images/song.png)
+
 **Watch a demo!**
-(https://drive.google.com/file/d/19EzXk2tfW4CLli9t0mreqiwJz7v3XkE7/view)
+(https://drive.google.com/file/d/1v8BZ3_kAK9Ohqrmr-GvMlJly-cOxQo8S/view)
