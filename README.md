@@ -31,9 +31,9 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * Concert information is sourced from the BandsInTown Api.
 * Song information is sourced from Spotify Api.
 * To select which source use up and down arrow keys, and press enter to select.
-![GitHub Logo]
-(/images/categorys.png)
-Format: ![Alt Text](url)
+
+![Alt text](/images/categorys.png)
+
 
 **You are then prompted with a question**
 * User will type in the Movie Name, Band Name, or Song Name
