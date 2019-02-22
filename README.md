@@ -38,17 +38,17 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 **You are then prompted with a question**
 * User will type in the Movie Name, Band Name, or Song Name
 * Press enter to submit
-![question]
-(/images/question.png)
-Format: ![Alt Text](url)
+
+![Alt text](/images/question.png)
+
 ## Results
 
 **When you search a Concert:**
 * Name of the venue
 * Venue location
-![concert]
-(/images/concert.png)
-Format: ![Alt Text](url)
+
+![Alt text](/images/concert.png)
+
 **When you search a Movie your:**
   * Title of the movie.
   * Year the movie came out.
@@ -58,9 +58,9 @@ Format: ![Alt Text](url)
   * Language of the movie.
   * Plot of the movie.
   * Actors in the movie.
-  ![movies]
-(/images/movies.png)
-Format: ![Alt Text](url)
+
+![Alt text](/images/movies.png)
+
 **When you search a Song your:**
 * Artist(s)
 * The song's name
