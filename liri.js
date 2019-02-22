@@ -27,7 +27,8 @@ inquirer
   ])
   .then(function (inquirerResponse) {
     if (inquirerResponse.search === "movie") {
-      var queryUrl = "http://www.omdbapi.com/?t=" + inquirerResponse.name + "&apikey=b3eb9e86";
+      var movieTitle = inquirerResponse.name;
+      var queryUrl = "http://www.omdbapi.com/?t=" + movieTitle + "&apikey=b3eb9e86";
       axios.get(queryUrl)
         .then(function (response) {
           console.log("\n\nThe movie's Title is: " + response.data.Title);
@@ -43,8 +44,8 @@ inquirer
 
     //.slice(3).join(" ")
     if (inquirerResponse.search === "concert") {
-      // var band = inquirerResponse.name.split(' ').join('');
-      var queryUrl = "https://rest.bandsintown.com/artists/" + inquirerResponse.name + "/events?app_id=node";
+  var bandTitle = inquirerResponse.name;
+      var queryUrl = "https://rest.bandsintown.com/artists/" + bandTitle + "/events?app_id=node";
       axios.get(queryUrl)
         .then(function (response) {
           console.log("Concert venue: " + response.data[0].venue.name);
@@ -54,29 +55,28 @@ inquirer
 
 
     }
+
     if (inquirerResponse.search === "song") {
+      
       var songTitle = inquirerResponse.name;
-      spotify.search({ type: 'track', query: songTitle }),
-        function songy(err, response, data) {
+      spotify.search({ type: 'track', query: songTitle },
+        function (err, data) {
           if (!songTitle) {
             songTitle = "the sign";
             console.log("the sign");
-
-          if (err) {
+          }
+          if  (err) {
             console.log(err);
           }
-         
           else {
-            console.log(response.data);
-          console.log(data.tracks.items[i].album.artists[i].name);
-          console.log(data.tracks.items[i].name);
-          console.log(data.tracks.items[i].external_urls.spotify);
-          console.log(data.tracks.items[i].album.name);
-
+          console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
+          console.log("Song name: " + data.tracks.items[0].name);
+          console.log("Spotify link: " + data.tracks.items[0].external_urls.spotify);
+          console.log("Album nae: " + data.tracks.items[0].album.name);
           }
-        };
-        songy();
+        });
+  
     }
-   
-  }
+
+  
 })
