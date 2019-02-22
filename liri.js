@@ -47,9 +47,9 @@ inquirer
       var queryUrl = "https://rest.bandsintown.com/artists/" + inquirerResponse.name + "/events?app_id=node";
       axios.get(queryUrl)
         .then(function (response) {
-          console.log(response.data[0].venue.name);
-          console.log(response.data[0].venue.city);
-          console.log(moment(response.data[0].datetime).format("MM/DD/YYYY"));
+          console.log("Concert venue: " + response.data[0].venue.name);
+          console.log("Concert city: " + response.data[0].venue.city);
+          console.log("Concert date: " + moment(response.data[0].datetime).format("MM/DD/YYYY"));
         })
 
 
@@ -77,6 +77,6 @@ inquirer
         };
         songy();
     }
-  
+   
   }
 })
