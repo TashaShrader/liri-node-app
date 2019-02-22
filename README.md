@@ -20,6 +20,7 @@ _you will need to run each of these installs seperately_
 * npm install moment
 * npm install axios
 * npm install dotenv
+
 ![Alt text](/images/npm.png)
 
 ## How It Works!
