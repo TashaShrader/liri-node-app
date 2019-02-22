@@ -19,7 +19,8 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * npm install moment
 * npm install axios
 * npm install dotenv
-
+![Alt text](/images/npm.png)
+_you will need to run each of these installs seperately_
 ## How It Works!
 
 **I have created 2 prompts to navigate through my project.**
