@@ -12,7 +12,6 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * Moment
 * DotEnv
 
-
 **To use App you will need to install a few things in your terminal..**
 
 _you will need to run each of these installs seperately_
@@ -22,7 +21,6 @@ _you will need to run each of these installs seperately_
 * npm install axios
 * npm install dotenv
 ![Alt text](/images/npm.png)
-
 
 ## How It Works!
 
@@ -37,7 +35,6 @@ _you will need to run each of these installs seperately_
 * To select which source use up and down arrow keys, and press enter to select.
 
 ![Alt text](/images/categorys.png)
-
 
 **You are then prompted with a question**
 * User will type in the Movie Name, Band Name, or Song Name
