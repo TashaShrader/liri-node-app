@@ -14,6 +14,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 
 **To use App you will need to install a few things in your terminal..**
+_you will need to run each of these installs seperately_
 * npm init -y
 * npm-spotify-api
 * npm install moment
@@ -21,7 +22,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 * npm install dotenv
 ![Alt text](/images/npm.png)
 
-_you will need to run each of these installs seperately_
+
 ## How It Works!
 
 **I have created 2 prompts to navigate through my project.**
